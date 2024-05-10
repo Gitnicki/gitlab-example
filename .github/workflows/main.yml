@@ -1,9 +1,11 @@
 name: CI/CD Pipeline
 
-on:
-  push:
-    tags:
-      - '*'
+# on:
+#   push:
+#     tags:
+#       - '*'
+
+on: [push]
 
 env:
   IMAGE_NAME: docknicki/gitlab-example
